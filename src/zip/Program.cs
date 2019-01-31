@@ -63,8 +63,8 @@ namespace zip
             Console.WriteLine("dotnet cli zip");
             Console.WriteLine("---------------");
             Console.WriteLine("Usage:");
-            Console.WriteLine("   > dotnet zip -e MyZip.zip ./MyZipFolder");
-            Console.WriteLine("   > dotnet zip -c ./MyZipFolder MyZip.zip");
+            Console.WriteLine("   > z -e MyZip.zip ./MyZipFolder");
+            Console.WriteLine("   > z -c ./MyZipFolder MyZip.zip");
         }
     }
 }

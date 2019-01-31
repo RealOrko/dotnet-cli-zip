@@ -37,6 +37,7 @@
 		<CurrentYear>$([System.DateTime]::Now.ToString("yyyy"))</CurrentYear>
 		<Copyright>Copyright 2019-$(CurrentYear) RealOrko </Copyright>
 		<ContentTargetFolders>.</ContentTargetFolders>
+		<Version>1.0.4</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
