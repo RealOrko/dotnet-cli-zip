@@ -17,16 +17,12 @@ dotnet tool install --global dotnet-cli-zip
 
 ## Using it
 
-All tested with `installing from source`(GitHub/Manually factorial RID visa vi [Powershell|Bash|Cmd]) could not verify `dotnet cli install` though, working on it! :)
-
 ```
 z -e MyZip.zip ./MyZipFolder
 z -c ./MyZipFolder MyZip.zip
 ```
 
 ## Uninstalling
-
-If you want to uninstall
 
 ```
 dotnet tool uninstall -g dotnet-cli-zip
