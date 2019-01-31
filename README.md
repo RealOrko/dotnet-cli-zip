@@ -9,20 +9,20 @@ On Windows you use powershell(Compress-Archive/Expand-Archive) but on Unix you u
 
 Please follow this <a target="dotnet_cli_zip_jump_target" href="https://github.com/dotnet/cli/issues/10675">issue</a>.
 
-## Install using the dotnet cli
+## Install
 
 ```
 dotnet tool install --global dotnet-cli-zip
 ```
 
-## Using it
+## Example
 
 ```
 z -e MyZip.zip ./MyZipFolder
 z -c ./MyZipFolder MyZip.zip
 ```
 
-## Uninstalling
+## Uninstall
 
 ```
 dotnet tool uninstall -g dotnet-cli-zip
