@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
 		<AssemblyName>z</AssemblyName>
-		<TargetFramework>netcoreapp2.1</TargetFramework>
+		<TargetFrameworks>netcoreapp2.1;netcoreapp3.1</TargetFrameworks>
 	</PropertyGroup>
 
 	<PropertyGroup>
@@ -20,12 +20,12 @@
 		<Title>dotnet cli zip tool</Title>
 		<PackageTags>dotnet,cli,zip</PackageTags>
 		<Product>dotnet cli zip</Product>
-		<BuildVersion>1.0.3</BuildVersion>
+		<BuildVersion>1.0.4</BuildVersion>
 		<BuildVersion Condition="'$(APPVEYOR_BUILD_VERSION)'!=''">$(APPVEYOR_BUILD_VERSION)</BuildVersion>
 		<BuildVersionMajor>$(BuildVersion.Split('.')[0])</BuildVersionMajor>
 		<BuildVersionNoSuffix>$(BuildVersion.Split('-')[0])</BuildVersionNoSuffix>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-		<FileVersion>$(BuildVersionNoSuffix)</FileVersion>
+		<FileVersion>1.0.4</FileVersion>
 		<VersionPrefix>$(BuildVersion)</VersionPrefix>
 		<AssemblyVersion>$(BuildVersionMajor).0.0</AssemblyVersion>
 		<PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</PackageLicenseUrl>
