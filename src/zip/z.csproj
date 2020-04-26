@@ -25,7 +25,7 @@
 		<BuildVersionMajor>$(BuildVersion.Split('.')[0])</BuildVersionMajor>
 		<BuildVersionNoSuffix>$(BuildVersion.Split('-')[0])</BuildVersionNoSuffix>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
-		<FileVersion>1.0.4</FileVersion>
+		<FileVersion>$(BuildVersionNoSuffix)</FileVersion>
 		<VersionPrefix>$(BuildVersion)</VersionPrefix>
 		<AssemblyVersion>$(BuildVersionMajor).0.0</AssemblyVersion>
 		<PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</PackageLicenseUrl>
