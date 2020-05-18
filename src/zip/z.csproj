@@ -20,7 +20,7 @@
 		<Title>dotnet cli zip tool</Title>
 		<PackageTags>dotnet,cli,zip</PackageTags>
 		<Product>dotnet cli zip</Product>
-		<BuildVersion>3.1.0</BuildVersion>
+		<BuildVersion>3.1.1</BuildVersion>
 		<BuildVersion Condition="'$(APPVEYOR_BUILD_VERSION)'!=''">$(APPVEYOR_BUILD_VERSION)</BuildVersion>
 		<BuildVersionMajor>$(BuildVersion.Split('.')[0])</BuildVersionMajor>
 		<BuildVersionNoSuffix>$(BuildVersion.Split('-')[0])</BuildVersionNoSuffix>
@@ -37,7 +37,7 @@
 		<CurrentYear>$([System.DateTime]::Now.ToString("yyyy"))</CurrentYear>
 		<Copyright>Copyright 2019-$(CurrentYear) RealOrko </Copyright>
 		<ContentTargetFolders>.</ContentTargetFolders>
-		<Version>3.1.0</Version>
+		<Version>$(BuildVersion)</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
