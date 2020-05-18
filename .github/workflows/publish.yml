@@ -13,7 +13,7 @@ jobs:
         id: publish_nuget
         uses: rohith/publish-nuget@v2
         with:
-          PROJECT_FILE_PATH: src/z.csproj
+          PROJECT_FILE_PATH: ./src/z.csproj
           PACKAGE_NAME: dotnet-cli-zip
           VERSION_FILE_PATH: z.csproj
           VERSION_REGEX: <Version>(.*)<\/Version>
