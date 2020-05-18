@@ -1,15 +1,15 @@
-name: publish to nuget
+name: Publish
 on:
   push:
     branches:
       - master
 jobs:
   publish:
-    name: build, pack & publish
+    name: Publish NUGET
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: publish on version change
+      - name: Publish Step
         id: publish_nuget
         uses: rohith/publish-nuget@v2
         with:
