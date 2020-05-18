@@ -1,5 +1,8 @@
 # dotnet-cli-zip
 
+![Build](https://github.com/RealOrko/dotnet-cli-zip/workflows/Build/badge.svg)
+![Publish](https://github.com/RealOrko/dotnet-cli-zip/workflows/Publish/badge.svg)
+
 A zipping and unzipping tool for the dotnet cli that works on osx-x64/linux-x64/win-x64 runtimes.
 
 ## Why do I need this?
