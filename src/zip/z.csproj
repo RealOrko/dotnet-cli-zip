@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
 		<AssemblyName>z</AssemblyName>
-		<TargetFramework>netcoreapp2.1</TargetFramework>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
 	</PropertyGroup>
 
 	<PropertyGroup>
@@ -20,7 +20,7 @@
 		<Title>dotnet cli zip tool</Title>
 		<PackageTags>dotnet,cli,zip</PackageTags>
 		<Product>dotnet cli zip</Product>
-		<BuildVersion>1.0.3</BuildVersion>
+		<BuildVersion>3.1.0</BuildVersion>
 		<BuildVersion Condition="'$(APPVEYOR_BUILD_VERSION)'!=''">$(APPVEYOR_BUILD_VERSION)</BuildVersion>
 		<BuildVersionMajor>$(BuildVersion.Split('.')[0])</BuildVersionMajor>
 		<BuildVersionNoSuffix>$(BuildVersion.Split('-')[0])</BuildVersionNoSuffix>
@@ -28,7 +28,7 @@
 		<FileVersion>$(BuildVersionNoSuffix)</FileVersion>
 		<VersionPrefix>$(BuildVersion)</VersionPrefix>
 		<AssemblyVersion>$(BuildVersionMajor).0.0</AssemblyVersion>
-		<PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0.html</PackageLicenseUrl>
+		<PackageLicense>http://www.apache.org/licenses/LICENSE-2.0.html</PackageLicense>
 		<PackageProjectUrl>https://github.com/RealOrko/dotnet-cli-zip</PackageProjectUrl>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 		<PackageVersion>$(BuildVersion)</PackageVersion>
