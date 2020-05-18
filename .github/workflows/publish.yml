@@ -15,7 +15,7 @@ jobs:
         with:
           PROJECT_FILE_PATH: ./src/zip/z.csproj
           PACKAGE_NAME: dotnet-cli-zip
-          VERSION_FILE_PATH: z.csproj
+          VERSION_FILE_PATH: ./z.csproj
           VERSION_REGEX: <Version>(.*)<\/Version>
           TAG_COMMIT: true
           TAG_FORMAT: v*
