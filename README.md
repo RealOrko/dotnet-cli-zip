@@ -10,6 +10,10 @@ A zipping and unzipping tool for the dotnet cli that works on osx-x64/linux-x64/
 You find yourself flick flacking when it comes to zipping and unzipping in build scripts on multiple runtimes. 
 On Windows you use powershell(Compress-Archive/Expand-Archive) but on Unix you use bash(zip/unzip) with nuances. 
 
+## Prerequisites
+
+You need to install the [DOTNET Core SDK](https://dotnet.microsoft.com/download).
+
 ## Install
 
 ```
