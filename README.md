@@ -17,7 +17,7 @@ You need to install the [DOTNET Core SDK](https://dotnet.microsoft.com/download)
 ## Install
 
 ```
-dotnet tool install --global dotnet-cli-zip
+dotnet tool install -g dotnet-cli-zip
 ```
 
 ## Example
